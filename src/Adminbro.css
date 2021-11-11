@@ -1,0 +1,171 @@
+.admin{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn1 {
+    font-size: 1em;
+    color: #fff;
+    background-color: #1d2128;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+  }
+  .btn1:hover{
+      background-color: white;
+      color: black;
+  }
+  
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 35vw;
+    max-width: 100%;
+
+    /* padding: 20px; */
+}
+input, textarea, label {
+    width: 100%;
+    display: block;
+  }
+  input::placeholder, textarea::placeholder {
+    color: #333;
+  }
+  input, textarea {
+    color: #222;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #333;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    outline: none;
+  }
+  .btn2 {
+      width: fit-content;
+align-items: center;
+      font-size: 1em;
+    color: #fff;
+    background-color: #1d2128;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+  }
+  .btn2:hover{
+      background-color: white;
+      color: black;
+
+  }
+  .admin_cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+  .admin_users{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #1d2128;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 10px;
+
+  }
+  .admin_users>h1{
+    font-size: 1rem;
+  }
+  .admin_properties{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #1d2128;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 50px;
+
+  }
+  .admin_properties>h1{
+    font-size: 1rem;
+  }
+  .admin_banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #1d2128;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 50px;
+
+  }
+  .admin_banner>h1{
+    font-size: 1rem;
+  }
+  .btn3 {
+    width: fit-content;
+  align-items: center;
+    font-size: 0.5em;
+  color: #fff;
+  background-color: #1d2128;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+.btn3:hover{
+    background-color: white;
+    color: black;
+
+}
+.btn4 {
+  width: fit-content;
+align-items: center;
+  font-size: 0.9em;
+color: #fff;
+background-color: #1d2128;
+display: inline-block;
+padding: 10px 20px;
+margin-top: 20px;
+border-radius: 10px;
+text-transform: uppercase;
+text-decoration: none;
+letter-spacing: 2px;
+transition: 0.5s;
+}
+.btn4:hover{
+  background-color: white;
+  color: black;
+
+}
+@media only screen and (max-width:500px) {
+  .admin{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .admin_users{
+    width: 100%;
+  }
+  .admin_properties , .admin_banner{
+    width: 100%;
+  }
+}

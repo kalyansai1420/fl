@@ -1,0 +1,36 @@
+.places{
+    position: relative;
+    z-index: -1;
+    width: 80%;
+    margin: 0 auto;
+   
+}
+.places_title{
+    margin-top: 20px;
+    font-size: 1.2em;
+
+}
+
+.places_cards{
+    padding: 15px;
+    display: flex;
+    justify-content:flex-start;
+    display: flex !important;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 800px) {
+.places{
+    width: 90%;
+}
+.places_title{
+    margin-top: 20px;
+    font-size: 1em;
+
+}
+}
+@media only screen and (max-width: 500px) {
+    .places_title{
+        margin-top: 20px;
+        font-size: 0.8em;
+    }
+}
